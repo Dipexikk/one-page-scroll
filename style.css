@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    margin: 0;
+}
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-number {
+    font-size: 5em;
+    color: white;
+}
+#section1 {background-color: #683653;}
+
+#section2 {background-color: #9dff00;}
+
+#section3 {background-color: #6100005d;}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 10px;
+    z-index: 10;
+    gap: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
